@@ -1,17 +1,7 @@
-This project implements an automated system designed to evaluate the alignment between a candidate’s resume and a given job description. The solution leverages modern text-processing techniques and similarity analysis to deliver an objective match score, supporting better career decision-making and recruitment readiness.
+This project implements an automated system designed to evaluate the alignment between a candidate’s resume and a given job description. It leverages modern text-processing techniques and similarity analysis to generate an objective match score, enabling users to better understand their job readiness and improve career-oriented decision-making. The system focuses on accuracy, clarity, and practical usability, ensuring reliable performance across different types of resumes and job descriptions.
 
-Technology Stack:
-Python 3.x,
-NLTK for text preprocessing,
-Scikit-Learn for TF-IDF vectorization, PCA, and similarity modelling,
-NumPy & Pandas for structured data handling, and
-Jupyter Notebook for experimentation and analysis
+The project is developed using Python 3.x and incorporates NLTK for text preprocessing, Scikit-Learn for TF-IDF vectorization, PCA, and similarity modelling, along with NumPy and Pandas for efficient data handling. Jupyter Notebook is used as the primary environment for experimentation, analysis, and demonstration, supporting an organized and reproducible workflow throughout the project.
 
-Core Components:
-Preprocessing Pipeline: Tokenization, stop-word removal, lemmatization, and noise reduction.
-Feature Engineering: TF-IDF extraction combined with PCA to reduce dimensionality while preserving semantic structure.
-Similarity Computation: Cosine similarity used to quantify the match between resume content and job requirements.
-Evaluation Module: Generates alignment percentage and highlights key improvement areas.
-Documentation: Includes the complete project report and development notebook.
+The system includes a comprehensive preprocessing pipeline consisting of tokenization, stop-word removal, lemmatization, and noise reduction. Feature engineering is performed through TF-IDF extraction combined with PCA to maintain semantic meaning while reducing dimensionality. Cosine similarity is applied to accurately quantify the alignment between a resume and job requirements. The evaluation module provides a clear alignment score and highlights areas needing improvement. Complete documentation, including the project report and notebook, further supports understanding and replication.
 
-Overall, the project delivers a robust and transparent methodology for evaluating resume relevance, offering a scalable framework for further research and practical deployment and the system establishes a reliable baseline for automated document comparison, and its modular architecture ensures smooth integration of future enhancements such as deep learning–based embeddings.
+Overall, the project presents a robust and transparent methodology for assessing resume relevance and establishes a strong baseline for automated document comparison. Its modular architecture ensures smooth integration of advanced extensions, including future enhancements using deep learning–based embeddings, making the system scalable for broader research and practical deployment.
